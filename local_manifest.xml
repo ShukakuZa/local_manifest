@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="derp"
+  <remote name="gh"
           fetch="https://github.com"
           clone-depth="1" />
   
-  <project path="device/xiaomi/gauguin" name="ShukakuZa/device_xiaomi_gauguin.git" remote="derp" revision="14" />
+  <project path="device/xiaomi/gauguin" name="ShukakuZa/device_xiaomi_gauguin.git" remote="gh" revision="14" />
 
-  <project path="vendor/xiaomi/gauguin" name="PixelOS-Devices/vendor_xiaomi_gauguin.git" remote="derp" revision="fourteen" />
+  <project path="vendor/xiaomi/gauguin" name="PixelOS-Devices/vendor_xiaomi_gauguin.git" remote="gh" revision="fourteen" />
 
-  <project path="kernel/xiaomi/gauguin" name="PixelOS-Devices/kernel_xiaomi_gauguin.git" remote="derp" revision="fourteen" />
+  <project path="kernel/xiaomi/gauguin" name="PixelOS-Devices/kernel_xiaomi_gauguin.git" remote="gh" revision="fourteen" />
 </manifest>
 
