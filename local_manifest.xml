@@ -10,3 +10,4 @@
 
   <project path="kernel/xiaomi/gauguin" name="PixelOS-Devices/kernel_xiaomi_gauguin.git" remote="derp" revision="fourteen" />
 </manifest>
+
