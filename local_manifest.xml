@@ -9,5 +9,7 @@
   <project path="vendor/xiaomi/gauguin" name="PixelOS-Devices/vendor_xiaomi_gauguin.git" remote="derp" revision="fourteen" />
 
   <project path="kernel/xiaomi/gauguin" name="PixelOS-Devices/kernel_xiaomi_gauguin.git" remote="derp" revision="fourteen" />
+
+  <project path="hardware/xiaomi" name="PixelOS-AOSP/hardware_xiaomi.git" remote="gh" revision="fourteen" />
 </manifest>
 
