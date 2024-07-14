@@ -16,6 +16,8 @@
 
   <project path="hardware/xiaomi" name="PixelOS-AOSP/hardware_xiaomi.git" remote="gh" revision="fourteen" />
 
+  <project path="packages/apps/ViPER4AndroidFX" name="TogoFire/packages_apps_ViPER4AndroidFX.git" remote="gh" revision="v4a" />
+
   <project path="vendor/xiaomi/miuicamera" name="ItzDFPlayer/vendor_davinci-miuicamera" remote="gm" revision="leica-5.0-universal" />
 </manifest>
 
