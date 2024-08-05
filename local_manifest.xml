@@ -1,15 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="derp"
+  <remote name="gt"
           fetch="https://github.com"
           clone-depth="1" />
+
+  <remote name="gh"
+          fetch="https://gitlab.com"
+          clone-depth="1" />
   
-  <project path="device/xiaomi/gauguin" name="ShukakuZa/device_xiaomi_gauguin.git" remote="derp" revision="14" />
+  <project path="device/xiaomi/surya" name="ShukakuZa/device_xiaomi_surya.git" remote="gt" revision="udc" />
 
-  <project path="vendor/xiaomi/gauguin" name="PixelOS-Devices/vendor_xiaomi_gauguin.git" remote="derp" revision="fourteen" />
+  <project path="vendor/xiaomi/surya" name="HinohArata/surya_vendor.git" remote="gt" revision="14" />
 
-  <project path="kernel/xiaomi/gauguin" name="PixelOS-Devices/kernel_xiaomi_gauguin.git" remote="derp" revision="fourteen" />
+  <project path="kernel/xiaomi/surya" name="HinohArata/kernel-4.14" remote="gt" revision="claire" />
 
-  <project path="hardware/xiaomi" name="PixelOS-AOSP/hardware_xiaomi.git" remote="gh" revision="fourteen" />
+  <project path="firmware/xiaomi/surya" name="HinohArata/firmware_xiaomi_surya.git" remote="gh" revision="tiramisu" />
 </manifest>
 
