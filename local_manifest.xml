@@ -8,12 +8,14 @@
           fetch="https://gitlab.com"
           clone-depth="1" />
   
-  <project path="device/xiaomi/surya" name="ShukakuZa/device_xiaomi_surya.git" remote="gt" revision="qpr3" />
+  <project path="device/xiaomi/surya" name="ShukakuZa/device_xiaomi_surya.git" remote="gt" revision="mist" />
 
   <project path="vendor/xiaomi/surya" name="surya-aosp/vendor_xiaomi_surya.git" remote="gt" revision="aosp" />
 
   <project path="kernel/xiaomi/surya" name="surya-aosp/kernel_xiaomi_surya.git" remote="gt" revision="lineage-21" />
 
-  <project path="firmware/xiaomi/surya" name="HinohArata/firmware_xiaomi_surya.git" remote="gh" revision="tiramisu" />
+  <project path="firmware/xiaomi/surya" name="apaosha/firmware_xiaomi_surya.git" remote="gh" revision="tiramisu" />
+
+  <project path="vendor/bcr" name="Chaitanyakm/vendor_bcr.git" remote="gt" revision="main" />
 </manifest>
 
